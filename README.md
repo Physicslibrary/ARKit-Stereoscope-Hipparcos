@@ -45,7 +45,7 @@ Fragment of code of how to display the first ASCII line in catalog.csv.
 
 img src="images/3.jpg" width="640"
 
-Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names to try different HID numbers of stars. Note that some HID doesn't have a ProperName.
+Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names to try different HID numbers of stars. Some HID doesn't have a ProperName.
 
 HID 71683 has a name "Rigel Kentaurus A" and a distance 1.34 parsec.
 
