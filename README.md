@@ -72,7 +72,7 @@ img src="images/3.jpg" width="640"
 
 Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names and try different HID numbers. Some HID doesn't have a ProperName.
 
-For example, HID 71683 is named "Rigel Kentaurus A" and it is 1.34 parsec (Distance). Rigel Kentaurus A is part of a triple star system called Alpha Centauri that is the nearest star system to the Sun.
+For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 parsec. Rigel Kentaurus A is part of a triple star system called Alpha Centauri that is the nearest star system to the Sun.
 
 img src="images/4.jpg" width="640"
 
