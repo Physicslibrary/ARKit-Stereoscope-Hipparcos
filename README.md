@@ -70,7 +70,7 @@ line[0].components(separatedBy: ",")
 
 let HID = 71683
 
-for i in 2 ... line.count {
+for i in 2 ... line.count - 2 {
     let A = line[i].components(separatedBy: ",")
     if Int(A[1]) == HID {
         print(A)
