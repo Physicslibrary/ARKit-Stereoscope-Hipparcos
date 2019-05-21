@@ -15,7 +15,7 @@ Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 # Software
 
-Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
+Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
 
 # Installation
 
