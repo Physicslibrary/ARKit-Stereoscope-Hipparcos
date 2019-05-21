@@ -33,9 +33,9 @@ https://www.blender.org/
 
 With Swift Playgrounds 3.0 update, the file structure has changed from 2.2.
 
-To keep things simple, a source file learn.swift is available for pasting into Playgrounds. Resources the program require will either be made available or links given. Use "Clone or download" to get zipped file onto an iPad. Unzip file in Apple Files app or a third-party file manager (eg. GoodReader).
+To keep things simple, a source file learn.swift is available for pasting into Playgrounds. Resources the program require will either be made available or links provided.
 
-Go to https://www.cv.nrao.edu/~bkent/blender/tutorials.html and tutorial "Reading data: Basic ASCII files". Get catalog.zip. It contains two files: hipparcos.blend and catalog.csv.
+Go to https://www.cv.nrao.edu/~bkent/blender/tutorials.html and tutorial "Reading data: Basic ASCII files". Get catalog.zip. It contains two files: hipparcos.blend and catalog.csv. Unzip file in Apple Files app or a third-party file manager (eg. GoodReader).
 
 Open a new "Blank" template in iOS Swift Playgrounds. Copy and paste the texts of learn.swift.
 
