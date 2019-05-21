@@ -1,16 +1,16 @@
 # ARKit-Stereoscope-Hipparcos (under construction)
 Render Hipparcos Catalogue of 119,617 stars with ARKit and SceneKit.
 
-img src="images/1.jpg" width="640"
+<img src="images/1.jpg" width="640">
 
 
-img src="images/2.jpg" width="640"
+<img src="images/2.jpg" width="640">
 
 Apple has updated iOS Swift Playgrounds 3.0 on May 14, 2019. There is now a simple way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
 
-In Swift Playgrounds 3.0, a "Blank" template will have a switch for turning off logging. Now Playgrounds can add much more objects to a scene!
+In Swift Playgrounds 3.0, a "Blank" template has a switch "Enable Results" for turning off logging. Now Playgrounds can add, for example, 100,000 spheres in a scene!
 
-img src="images/3.jpg" width="640"
+<img src="images/3.png" width="640">
 
 # Hardware
 
@@ -44,6 +44,12 @@ Before "Run My Code", turn off "Enable Results".
 
 The Sun is located (0,0,0) on the RGB axis. All positions of stars are placed relative to this axis.
 
+This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
+
+Virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is the XYZ or RGB axis).
+
+If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds. Dropping frame rate is not critical as one usually travel slowly through a star field.
+
 # How it works
 
 The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. We want to extract the HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
@@ -75,15 +81,15 @@ for i in 2 ... line.count-2 {
 
 With "Enable Results" on.
 
-img src="images/4.jpg" width="640"
+<img src="images/4.png" width="640">
 
 Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names and try different HID numbers. Some HID doesn't have a ProperName.
 
 For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 parsec. Rigel Kentaurus A is part of a triple star system called Alpha Centauri that is the nearest star system to the Sun.
 
-img src="images/5.jpg" width="640"
+<img src="images/5.png" width="640">
 
-The rest of Contents.swift is basically the same as ARKit-Stereoscope-67P. Displaying thousands of stars in SceneKit with ARKit is possible with iOS Swift Playgrounds 3.0 update. There is still a memory limit on a 2018 9.7" iPad with 2GB of RAM. The solution to not being able to display all 119,617 stars is to add a variable "parsec" which will only plot stars within a certain distance.
+The rest of Contents.swift is basically the same as ARKit-Stereoscope-67P. Displaying thousands of stars in SceneKit with ARKit is possible with Playgrounds 3.0 update. There is still a memory limit on a 2018 9.7" iPad with 2GB of RAM. The solution to not being able to display all 119,617 stars is to add a variable "parsec" which will only plot stars within a certain distance.
 
 # References
 
@@ -95,13 +101,15 @@ https://www.cv.nrao.edu/~bkent/blender/thebook.html
 
 https://www.cv.nrao.edu/~bkent/blender/tutorials.html
 
-https://github.com/astronexus/HYG-Database
-
 https://en.wikipedia.org/wiki/Parsec
 
 https://stars.chromeexperiments.com/
 
 https://www.html5rocks.com/en/tutorials/casestudies/100000stars/
+
+http://astronexus.com/
+
+https://github.com/astronexus/HYG-Database
 
 https://www.apple.com/ca/swift/playgrounds/
 
