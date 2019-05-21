@@ -17,7 +17,7 @@ Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
 
-There is no Blender is for iOS and is optional for a tutorial.
+There is no Blender for iOS and is optional for a tutorial.
 
 https://www.blender.org/
 
@@ -31,7 +31,7 @@ Go to https://www.cv.nrao.edu/~bkent/blender/tutorials.html and tutorial "Readin
 
 Open a new "Blank" template in iOS Swift Playgrounds. Copy and paste the texts of Contents.swift.
 
-Press the "+" on upper right and select the third icon (folded paper). Insert catalog.csv.
+Press "+" on upper right and select the third icon (folded paper). Insert catalog.csv.
 
 Before "Run My Code", turn off "Enable Results".
 
@@ -43,9 +43,34 @@ The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blen
 
 Fragment of code of how to display the first ASCII line in catalog.csv.
 
+<pre>
+import UIKit
+
+let fileurl = Bundle.main.url(forResource: "catalog", withExtension: "csv")
+let filecontent = try String(contentsOf: fileurl!,encoding: String.Encoding.utf8)
+let line = filecontent.components(separatedBy: "\n")
+
+line.count
+
+line[0]
+line[0].components(separatedBy: ",")
+
+let HID = 71683
+
+for i in 2 ... line.count-2 {
+    let A = line[i].components(separatedBy: ",")
+    if Int(A[1]) == HID {
+        print(A)
+        break
+    }
+}
+</pre>
+
+With "Enable Results" on.
+
 img src="images/3.jpg" width="640"
 
-Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names to try different HID numbers of stars. Some HID doesn't have a ProperName.
+Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names and try different HID numbers. Some HID doesn't have a ProperName.
 
 For example, HID 71683 has a name "Rigel Kentaurus A" and a distance 1.34 parsec.
 
