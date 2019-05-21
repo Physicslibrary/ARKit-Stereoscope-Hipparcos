@@ -19,6 +19,10 @@ Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids prog
 
 # Installation
 
+20MB catalog.csv
+
+format of data
+
 # References
 
 https://www.cv.nrao.edu/~bkent/blender/thebook.html
