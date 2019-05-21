@@ -3,15 +3,22 @@ Render Hipparcos Catalogue of 119,617 stars with ARKit and SceneKit.
 
 img src="images/1.jpg" width="640"
 
+
+img src="images/2.jpg" width="640"
+
 Apple has updated iOS Swift Playgrounds 3.0 on May 14, 2019. There is now a simple way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
 
 In Swift Playgrounds 3.0, a "Blank" template will have a switch for turning off logging. Now Playgrounds can add much more objects to a scene!
 
-img src="images/2.jpg" width="640"
+img src="images/3.jpg" width="640"
 
 # Hardware
 
 Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
+
+The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
+
+https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the stereoscope with an 9.7" iPad.
 
 # Software
 
@@ -68,13 +75,13 @@ for i in 2 ... line.count-2 {
 
 With "Enable Results" on.
 
-img src="images/3.jpg" width="640"
+img src="images/4.jpg" width="640"
 
 Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names and try different HID numbers. Some HID doesn't have a ProperName.
 
 For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 parsec. Rigel Kentaurus A is part of a triple star system called Alpha Centauri that is the nearest star system to the Sun.
 
-img src="images/4.jpg" width="640"
+img src="images/5.jpg" width="640"
 
 The rest of Contents.swift is basically the same as ARKit-Stereoscope-67P. Displaying thousands of stars in SceneKit with ARKit is possible with iOS Swift Playgrounds 3.0 update. There is still a memory limit on a 2018 9.7" iPad with 2GB of RAM. The solution to not being able to display all 119,617 stars is to add a variable "parsec" which will only plot stars within a certain distance.
 
