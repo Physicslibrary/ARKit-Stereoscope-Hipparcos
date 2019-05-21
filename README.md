@@ -41,7 +41,7 @@ The Sun is located (0,0,0) on the RGB axis. All positions of stars are placed re
 
 The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. We want to extract the HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
 
-Fragment of code of how to display the first ASCII line in catalog.csv.
+ How to read and display the first ASCII line in catalog.csv.
 
 <pre>
 import UIKit
