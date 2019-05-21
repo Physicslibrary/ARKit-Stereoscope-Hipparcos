@@ -31,7 +31,7 @@ Press the "+" on upper right and select the third icon (folded paper). Insert ca
 
 Before "Run My Code", turn off "Enable Results".
 
-Our Sun is located (0,0,0) on the RGB axis. All positions of stars are placed relative to this axis.
+The Sun is located (0,0,0) on the RGB axis. All positions of stars are placed relative to this axis.
 
 # How it works
 
