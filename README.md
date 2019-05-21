@@ -70,7 +70,7 @@ line[0].components(separatedBy: ",")
 
 let HID = 71683
 
-for i in 2 ... line.count-2 {
+for i in 2 ... line.count {
     let A = line[i].components(separatedBy: ",")
     if Int(A[1]) == HID {
         print(A)
@@ -89,7 +89,7 @@ For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 par
 
 <img src="images/5.png" width="640">
 
-The rest of Contents.swift is basically the same as ARKit-Stereoscope-67P. Displaying thousands of stars in SceneKit with ARKit is possible with Playgrounds 3.0 update. There is still a memory limit on a 2018 9.7" iPad with 2GB of RAM. The solution to not being able to display all 119,617 stars is to add a variable "parsec" which will only plot stars within a certain distance.
+The rest of learn.swift is basically the same as the one in ARKit-Stereoscope-67P. Displaying thousands of stars in SceneKit with ARKit is possible with Playgrounds 3.0 update. There is still a memory limit on a 2018 9.7" iPad with 2GB of RAM. The solution to not being able to display all 119,617 stars is to add a variable "parsec" which will only plot stars within a certain distance.
 
 # References
 
