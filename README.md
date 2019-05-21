@@ -11,7 +11,7 @@ img src="images/2.jpg" width="640"
 
 # Hardware
 
-1. Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
+Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 # Software
 
