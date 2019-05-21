@@ -6,7 +6,7 @@ Render Hipparcos Catalogue of 119,617 stars with ARKit and SceneKit.
 
 <img src="images/2.jpg" width="640">
 
-Apple has updated iOS Swift Playgrounds 3.0 on May 14, 2019. There is now a simple way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
+Apple has updated iOS Swift Playgrounds to 3.0 on May 14, 2019. There is now a simple way to turn off Swift Playgrounds logging every objects created during runtime (little boxes that appears on the right side when "Run My Code", useful for inspection and debugging but consume memory).
 
 In Swift Playgrounds 3.0, a "Blank" template has a switch "Enable Results" for turning off logging. Now Playgrounds can add, for example, 100,000 spheres in a scene!
 
