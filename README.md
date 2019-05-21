@@ -17,6 +17,10 @@ Tested on Apple 2018 9.7" iPad (A9 CPU or higher for ARKit).
 
 Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
 
+There is no Blender is for iOS and is optional for a tutorial.
+
+https://www.blender.org/
+
 # Installation
 
 With Swift Playgrounds 3.0 update, the file structure has changed from 2.2.
@@ -35,7 +39,7 @@ The Sun is located (0,0,0) on the RGB axis. All positions of stars are placed re
 
 # How it works
 
-The 20MB catalog.csv contains data on 119,617 stars. Use Blender 2.79, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. We want to extract the HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
+The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. We want to extract the HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
 
 Fragment of code of how to display the first ASCII line in catalog.csv.
 
