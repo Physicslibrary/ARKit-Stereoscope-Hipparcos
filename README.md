@@ -10,7 +10,7 @@ Apple has updated iOS Swift Playgrounds to 3.0 on May 14, 2019. There is now a s
 
 In Swift Playgrounds 3.0, a "Blank" template has a switch "Enable Results" for turning off logging. Now Playgrounds can add, for example, 100,000 spheres in a scene!
 
-<img src="images/3.png" width="640">
+<img src="images/3.jpg" width="640">
 
 # Hardware
 
