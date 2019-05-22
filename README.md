@@ -80,7 +80,7 @@ for i in 2 ... line.count - 2 {
 }
 </pre>
 
-With "Enable Results" on.
+With "Enable Results" on, "Run My Code". When finished, "line.count" is 119619 which equals 119617 stars plus the first two lines. The picture below shows "line[0].components(separatedBy: ",")".
 
 <img src="images/4.png" width="640">
 
@@ -116,5 +116,4 @@ https://www.apple.com/ca/swift/playgrounds/
 
 https://developer.apple.com/swift-playgrounds/release-notes/
 
-
-Copyright (c) 2019 Hartwell Fong
+<br><br>Copyright (c) 2019 Hartwell Fong
