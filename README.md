@@ -23,7 +23,7 @@ https://github.com/Physicslibrary/ARKit-Stereoscope-67P explains how to use the 
 
 # Software
 
-Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages ~4 and Up program their iPad directly to experiment with ARKit and Scenekit.
+Apple Swift Playgrounds 3.0 from iOS App Store. Swift Playgrounds lets kids ages >4 program their iPad directly to experiment with ARKit and Scenekit.
 
 There is no Blender for iOS and is optional for a tutorial.
 
