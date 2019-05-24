@@ -53,9 +53,13 @@ If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Pl
 
 # How it works
 
-The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. We want to extract the HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
+The 20MB catalog.csv contains data on 119,617 stars. Use Blender, hipparcos.blend, and https://www.youtube.com/watch?v=C3u2Gkdgxfw to learn how to read and display catalog.csv in another complimentary environment. 
 
- How to read and display the first ASCII line in catalog.csv. Each line is separated by "\n". In each line, values like HID, ProperName, X, Y, and Z are separated by ",".
+<img src="images/6.png" width="640">
+
+We want to extract HID, ProperName, and X, Y, and Z positions of the stars in Playgrounds.
+
+"filecontent" reads catalog.csv. Each line is separated by "\n". In each line, values like HID, ProperName, X, Y, and Z are separated by ",".
 
 <pre>
 import UIKit
