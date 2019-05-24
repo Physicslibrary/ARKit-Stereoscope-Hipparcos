@@ -92,7 +92,7 @@ righteye.session.run(config)
  A[19] = Z
  */
 
-for i in 2 ... line.count - 2 {
+for i in 1 ... line.count - 2 {
     
     let A = line[i].components(separatedBy: ",")
     
