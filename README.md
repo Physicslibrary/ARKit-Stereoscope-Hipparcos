@@ -102,19 +102,17 @@ https://www.cosmos.esa.int/web/hipparcos/home
 
 https://en.wikipedia.org/wiki/Hipparcos
 
+https://en.wikipedia.org/wiki/Parsec
+
 Brian R. Kent, 3D Scientific Visualization with Blender, Morgan & Claypool Publishers (2015).
 
 https://www.cv.nrao.edu/~bkent/blender/thebook.html
 
 https://www.cv.nrao.edu/~bkent/blender/tutorials.html
 
-https://en.wikipedia.org/wiki/Parsec
-
 https://stars.chromeexperiments.com/
 
 https://www.html5rocks.com/en/tutorials/casestudies/100000stars/
-
-http://astronexus.com/
 
 https://github.com/astronexus/HYG-Database
 
