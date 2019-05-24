@@ -43,15 +43,18 @@ SOFTWARE.
  Software:
  
  Apple iOS Swift Playgrounds 3.0
- ARKit and SceneKit (set up scene, read 3D files, attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscope, 6DOF tracking).
+ ARKit and SceneKit (set up scene, read 3D files, attact a virtual camera for lefteye to ARKit iPad 
+ camera righteye to make a stereoscope, 6DOF tracking).
  
  https://www.apple.com/ca/swift/playgrounds/
  
  If frame rate < 60Hz, hold iPad still, press HOME button, return to Swift Playgrounds.
  
- This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
+ This playground doesn't look for a flat plane to put virtual objects on, instead the initial position 
+ of the iPad is the world origin when "Run My Code" is pressed.
  
- All virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is an XYZ or RGB axis)
+ All virtual objects are positioned and oriented according to this world origin 
+ (with righteye.debugOptions on, the world origin is an XYZ or RGB axis)
  
  */
 
