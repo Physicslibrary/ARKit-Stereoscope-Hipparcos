@@ -98,6 +98,8 @@ https://www.cosmos.esa.int/web/hipparcos/home
 
 https://en.wikipedia.org/wiki/Hipparcos
 
+Brain R Kent, 3D Scientific Visualization, Morgan & Claypool Publishers (2015)
+
 https://www.cv.nrao.edu/~bkent/blender/thebook.html
 
 https://www.cv.nrao.edu/~bkent/blender/tutorials.html
