@@ -49,7 +49,7 @@ This playground doesn't look for a flat plane to put virtual objects on, instead
 
 Virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is the XYZ or RGB axis).
 
-If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds. Dropping frame rate is not critical as one usually travel slowly through a star field.
+If frame rate <60Hz, hold iPad still, press iPad HOME button, return to Swift Playgrounds.
 
 # How it works
 
