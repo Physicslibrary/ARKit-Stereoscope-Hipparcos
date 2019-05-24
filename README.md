@@ -86,7 +86,7 @@ With "Enable Results" on, "Run My Code". When finished, "line.count" is 119619 w
 
 Go to https://www.cosmos.esa.int/web/hipparcos/common-star-names and try different HID numbers. Some HID doesn't have a ProperName.
 
-For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 parsec. Rigel Kentaurus A is part of a triple star system called Alpha Centauri that is the nearest star system to our solar system.
+For example, HID 71683 is named "Rigel Kentaurus A" and its distance is 1.34 parsec. Rigel Kentaurus A is part of the triple star system Alpha Centauri that is the nearest star system to our solar system.
 
 <img src="images/5.png" width="640">
 
