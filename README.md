@@ -100,6 +100,10 @@ The rest of learn.swift is basically the same as the one in ARKit-Stereoscope-67
 
 https://www.cosmos.esa.int/web/hipparcos/home
 
+http://sci.esa.int/star_mapper/
+
+http://sci.esa.int/hipparcos/58154-star-mapper/
+
 https://en.wikipedia.org/wiki/Hipparcos
 
 https://en.wikipedia.org/wiki/Parsec
